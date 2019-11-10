@@ -1,0 +1,12 @@
+konfiguracja Webpack
+npm install --save-dev typescript ts-loader source-map-loader
+https://www.youtube.com/watch?v=JvHB7XZUqO0&list=PLiKs97d-BatHEeclprFtCaw8RcNOYXUqN&index=2
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB)
+https://stackoverflow.com/questions/49348365/webpack-4-size-exceeds-the-recommended-limit-244-kib
+
+Module not found: Error: Can't resolve 'sockjs-client' in
+https://github.com/webpack/webpack-dev-server/issues/993
+
+"module": "es2015",
+https://www.sitepoint.com/understanding-es6-modules/
