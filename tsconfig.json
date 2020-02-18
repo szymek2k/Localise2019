@@ -8,12 +8,14 @@
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
     "module": "es2015",
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "outDir": "./dist/",
     "preserveConstEnums": true,
     "removeComments": true,
     "sourceMap": true,
-    "target": "es6"
+    "target": "es6",
+    "alwaysStrict": false,
+    "strictFunctionTypes":false
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
